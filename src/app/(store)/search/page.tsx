@@ -43,7 +43,7 @@ export default async function Search({ searchParams }: SearchProps) {
           return (
             <Link
               key={product.id}
-              href={`/products/${product.slug}`}
+              href={`/product/${product.slug}`}
               className="group relative flex items-start justify-center overflow-hidden rounded-lg bg-zinc-900"
             >
               <Image
